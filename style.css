@@ -1,0 +1,22 @@
+#heading{
+    background-color: blueviolet;
+    height: 77px;
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+#nav-cont{
+    position: sticky;
+    top: 0%;
+    text-align: center;
+    height: 20px;
+#nav-cont div{
+    display: inline;
+    padding: 10%;
+}
+a{
+    color: rgb(202, 134, 7);
+    text-decoration: none;
+    display: inline;
+}

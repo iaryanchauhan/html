@@ -1,22 +1,50 @@
 #heading{
     background-color: blueviolet;
-    height: 77px;
+    height: 100px;
     text-align: center;
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
     text-transform: uppercase;
 }
 #nav-cont{
-    position: sticky;
-    top: 0%;
+ 
+    
     text-align: center;
-    height: 20px;
+    background-color: rgb(121, 62, 176);}
+
+    
 #nav-cont div{
     display: inline;
-    padding: 10%;
+    font-size: 3rem;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 a{
-    color: rgb(202, 134, 7);
+    color: rgb(45, 4, 39);
     text-decoration: none;
-    display: inline;
+}
+#bg-img{
+    background-image: url(./bg.jpg);
+    height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#name{
+    color: rgb(196, 165, 165);
+    margin-left: 550px;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    position: absolute;
+    margin-top: 80px;
+}
+#profile{
+background-image: url(./Image\ 8.jpg);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 80%
 }
